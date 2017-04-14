@@ -1,6 +1,12 @@
 /*
 	Colors and Styling
 */
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+	
 header {
 	background-color:black;
 	color:white;
@@ -25,6 +31,12 @@ header nav li a:hover {
 footer {
 	border-top:1px solid black;
 }
+
+a {
+	color:#b42024;
+}
+	
+
 /* 
 	Tablet and smaller layout
 */
@@ -48,7 +60,13 @@ footer {
 	}
 	
 	footer {
-		width:100%;
+		width:95%;
+		padding-left:2.5%;
+	}
+	
+	#dvContent {
+		width:95%;
+		padding-left:2.5%;
 	}
 }
 
@@ -56,11 +74,7 @@ footer {
 	Desktop Layout
 */
 	@media only screen and (min-width: 751px) {
-	html, body {
-		margin: 0;
-		padding: 0;
-		height:100%;
-	}
+
 
 	header {
 		width:96%;
@@ -137,10 +151,6 @@ footer {
 		top:1em;
 	}
 
-	a {
-		color:#b42024;
-	}
-		
 	#dVcontent {
 		clear:both;
 		position:auto;
