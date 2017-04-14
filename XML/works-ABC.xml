@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<worklist>
+		<works>
+			<work>
+				<identifier>ABC-001</identifier>
+				<title>Alphabetical Series from A to Z</title>
+				<creator>Creator Ab</creator>
+				<creator>Creator Bc</creator>
+				<type>text</type>
+				<description><![CDATA[<p>This paper describes alphabetical series from A to Z.</p>]]></description>
+				<sources>
+					<source>
+						<source_title>Alphabet Digest</source_title>					
+						<date>2017-01-01</date>
+						<format>electronic</format>
+						<paywall>y</paywall>					
+						<url>http://foo.edu/ad/ABC/</url>					
+					</source>
+				</sources>
+			</work>
+			<!--
+			Use this as a template when adding new works to the list. Note that <source> and <creator> are repeatable.
+			<work>
+				<identifier></identifier>
+				<title></title>
+				<creator></creator>
+				<type></type>
+				<description><![CDATA[<p>Content goes here</p>]]></description>
+				<sources>
+					<source>
+						<source_title></source_title>					
+						<date></date>
+						<format></format>
+						<paywall></paywall>					
+						<url></url>					
+					</source>
+				</sources>
+			</work>-->
+		</works>
+	</worklist>

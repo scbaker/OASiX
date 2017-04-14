@@ -1,0 +1,241 @@
+/*
+	Colors and Styling
+*/
+header {
+	background-color:black;
+	color:white;
+	border-bottom:solid 1px black;
+}
+
+header nav ul {
+	list-style:none;
+	text-align:center;
+}
+
+header nav li a {
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+}
+
+header nav li a:hover {
+	text-decoration:underline;
+}
+
+footer {
+	border-top:1px solid black;
+}
+/* 
+	Tablet and smaller layout
+*/
+
+@media only screen and (max-width: 750px) {
+	header {
+		height:auto;
+	}
+		
+	header nav {
+		width:100%;
+	}
+	
+	header nav ul li {
+		width:100%;
+	}
+	
+	#branding {
+		width:100%;
+		text-align:center;
+	}
+	
+	footer {
+		width:100%;
+	}
+}
+
+/*
+	Desktop Layout
+*/
+	@media only screen and (min-width: 751px) {
+	html, body {
+		margin: 0;
+		padding: 0;
+		height:100%;
+	}
+
+	header {
+		width:96%;
+		height:100px;
+		position:fixed;
+		left:0;
+		top:0;
+		padding-left:2%;
+		padding-right:2%;
+		padding-bottom:2%;
+		z-index:1;
+	}
+
+	#branding {
+		position:relative;
+		width:50%;
+		float:left;
+	}
+
+	header nav {
+		position:relative;
+		float:right;
+		width:75%;
+	}
+
+	header nav ul {
+		position:relative;
+	}
+
+	header nav li {
+		position:relative;
+		float:left;
+		width:25%;
+		min-width:75px;
+		text-align:center;
+	}
+
+	header nav li a {
+		font-size:20px;
+		padding:4%;
+	}
+
+	#dvContent {
+		position:relative;
+		width:95%;
+		padding-left:5%;
+		top:120px;
+		height:525px;
+		overflow-y:scroll;
+		overflow-x:none;
+	}
+
+	footer {
+		position:relative;
+		bottom:0;
+		width:98%;
+		top:120px;
+		padding-left:2%;
+		padding-top:2%;
+		padding-bottom:2%;
+		}
+
+	footer #content {
+		position:relative;
+		width:45%;
+		float:left;
+		margin-right:5%;
+	}
+
+	footer #owning {
+		position:relative;
+		width:45%;
+		float:left;
+		top:1em;
+	}
+
+	a {
+		color:#b42024;
+	}
+		
+	#dVcontent {
+		clear:both;
+		position:auto;
+	}
+
+
+	/* 
+		Home Page Styling
+	*/
+
+	#dvAbout {
+
+	}
+
+	/*
+		Browse Page Styling
+	*/
+
+	#dvAuthors {
+		width:100%;
+	}
+
+	/* style nav */
+	#dvAuthors nav {
+		position:relative;
+		padding-bottom:10px;
+		width:25%;
+	}
+
+	#dvAuthors nav ul {
+		list-style:none;
+	}
+
+	#dvAuthors nav ul li {
+		float:left;
+		position:relative;
+		width:50%;
+	}
+
+
+
+	/* style list profile links */
+
+	#dvAuthors .row-list {
+		width:100%;
+		clear:both;
+		margin-bottom:1%;
+		height:50px;
+	}
+
+	.row-list .author-thumb {
+		height:100%;
+		position:relative;
+		float:left;
+		margin-right:10px;
+	}
+
+	/* style grid profile links */
+	#dvAuthors .row-grid {
+		position:relative;
+		float:left;
+		width:20%;
+		margin-right:1%;
+		height:225px;
+		text-align:center;
+		min-width:200px;
+	}
+
+	.row-grid .author-thumb {
+		height:50%;
+	}
+
+	/*
+		Author Page styling
+	*/
+
+	#dvProfile {
+		width:90%;
+		padding-left:5%;
+	}
+
+	#dvProfile img {
+		position:relative;
+		float:right;
+		max-width:300px;
+		padding-left:60px;
+	}
+
+	#dvWorks {
+		width:95%;
+	}
+
+	#dvWorks .row {
+		padding-bottom:15px;
+		position:relative;
+	}
+
+}

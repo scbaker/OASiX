@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<creatorlist>
+		<creator>
+			<identifier>ABC</identifier>
+			<display_name>Creator Ab</display_name>
+			<title>Alphabetizer</title>
+			<department>Department of Functional Organization</department>
+			<email>abc@foo.edu</email>
+			<url>http://foo.edu/abc</url>
+			<image></image>
+			<profile><![CDATA[Creator Ab organizes things functionally, unless they don't.]]></profile>
+			<date-added>2017-01-01</date-added>
+			<date-modified>2017-01-05</date-modified>
+		</creator>	
+		<!--
+		Use this as a template to add new creators to the showcase. Note you will then need to create a new XML file with the identifier for that creator's author page to work.
+		<creator>		
+			<first></first>
+			<middle></middle>
+			<last></last>
+			<identifier></identifier>
+			<display_name></display_name>
+			<title></title>
+			<department></department>
+			<email></email>
+			<url></url>
+			<image></image>
+			<profile><![CDATA[</profile>
+			<date-added></date-added>
+			<date-modified></date-modified>
+		</creator>-->
+</creatorlist>

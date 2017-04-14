@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<ShowcaseInfo>
+		<Name>OASiX Sample Showcase</Name>
+		<About><![CDATA[<p>OASiX (<strong>O</strong>pen <strong>A</strong>ccess <strong>S</strong>howcase <strong>i</strong>n <strong>X</strong>ML) is a simple, XML- and jQuery-based web application which allows for the creation of an online showcase with a minimum of technical expertise. OASiX was designed to serve as a lightweight research showcase, but can also be used as an <a href="https://en.wikipedia.org/wiki/Institutional_repository">Institutional Repository (IR)</a> or&mdash;with a bit of customization&mdash;in any situation where you want to showcase a set of things which have been created by people (e.g. personal author page; small press page; artist portfolio).</p><p>To use OASiX, all you need are:</p><ul><li>Space on a web server</li><li>The ability to edit XML files.</li></ul><p>OASiX is Open Source and free to use. <a href="https://github.com/scbaker/OASiX ">Check out the project's GitHub page to get started</a>.</p><p>The project is maintained by <a href="http://wou.edu/~bakersc">Stewart C Baker</a>, Systems/IR librarian at Western Oregon University.</p>]]></About>
+		<OwningGroup>Foo University</OwningGroup>
+		<OwningURL>http://foo.edu/</OwningURL>
+		<FooterText><![CDATA[<p>Default Footer Content is super fancy.</p>]]></FooterText>
+		<Icon></Icon>
+	</ShowcaseInfo>
+	<AdminInfo>
+		<Admin>
+			<AdminPhone>503-838-8890</AdminPhone>
+			<AdminEmail>bakersc@wou.edu</AdminEmail>
+			<AdminName>Stewart Baker</AdminName>
+			<AdminArea>All inquiries</AdminArea>			
+		</Admin>
+		<!--If you have multiple administrators, add more as needed
+		<Admin>
+			<AdminPhone></AdminPhone>
+			<AdminEmail></AdminEmail>
+			<AdminName></AdminName>
+			<AdminArea></AdminArea>
+		</Admin>
+		-->
+	</AdminInfo>
+	<SettingsInfo>
+		<!--Miscellaneous settings with a Y/N toggle-->
+	</SettingsInfo>
+	<Departments>
+		<!--Used to populate the list of departments and the browse by department page-->
+		<Department>Department of Functional Organization</Department>
+	</Departments>
+</settings>

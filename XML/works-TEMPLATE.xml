@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<worklist xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<works>
+			<!--
+			Explanation of fields - Delete when using this template to create a new list of works.
+			<work>
+				<identifier>The identifier of the creator + a number (e.g. ABC001)</identifier>
+				<title>The title of the work. Use CDATA if the title has an ampersand or requires HTML.</title>
+				<creator>Creator(s) for the work. Can be repeated to list co-authors.</creator>
+				<type>Type of the work, using DCMI terms (Optional)</type>				
+				<description>A description of the work. It's best to use CDATA if the description is detailed. (Optional)</description>
+				<sources>
+					<source> (Repeatable)
+						<title>Title of the journal, website or other source of the work</title>					
+						<date>Date when the work appeared in this source</date>
+						<format>Format of the source, e.g. print or electronic (Optional)</format>
+						<paywall>If the source requires a subscription or some other associated cost, mark this with a y. If the work is freely available at the source, mark this with a n. (Optional)</paywall>					
+						<url>A URL to access the work (Optional)</url>					
+					</source>
+				</sources>
+			</work>-->
+
+
+			<!--
+			Use this as a template when adding new works to the list. Note that <source> and <creator> are repeatable.
+			<work>
+				<identifier></identifier>
+				<title></title
+				<creator></creator>
+				<type></type>
+				<description><![CDATA[<p>Content goes here</p>]]></description>
+				<sources>
+					<source>
+						<title></title>					
+						<date></date>
+						<format></format>
+						<paywall></paywall>					
+						<url></url>					
+					</source>
+				</sources>
+			</work>-->
+		</works>
+	</worklist>
